@@ -1,0 +1,84 @@
+body {
+
+    background-color: darkgreen;
+
+    }
+    header{
+        display:flex ;
+        justify-content:center;
+        align-items:center ;
+        background-color: grey;
+        color: mediumturquoise;
+        border:5px solid blue;
+        padding:10px;
+        margin:25px;
+
+    }
+    #intro,footer,#bestsellers{
+        background-color: lightgrey;
+        color: black;
+        border: 3px solid white;
+    }
+
+#intro{
+font-family: 'Courier New', Times, serif;   
+}
+h1{
+    
+    font-family:'Pacifico', cursive;
+    font-size:37px;
+    font-weight:500;
+    text-decoration: underline;
+}
+.main-section-content h2{
+    background-color:lime;
+    padding:20px;
+    font-size:24px;
+    text-align:center;
+    margin-bottom:75px;
+    border:10px solid green;
+    position:relative;
+    top:50px;
+    
+    
+}
+.teacher-info {
+    display:flex;
+    justify-content:space-between ;
+    align-items: end;
+    border-radius:15px;
+    margin:20px;
+    width:400px;
+    box-shadow: 5px 10px 25px 15px darkolivegreen;
+}
+li a:hover {
+    color:navy;
+}
+nav {
+    display:flex;
+    justify-content:space-around;
+    align-items:space-evenly;
+    background-color:darkseagreen ;
+    position:sticky;
+    top:0;
+    z-index:2;
+    border:7.5px dashed aquamarine
+}
+
+button { 
+    background-color:skyblue ;
+    color:black ;
+    padding:5px;
+    border-radius:5px;
+    border:2px dashed white;
+    position:fixed;
+    right:50px;
+    bottom:40px;   
+}
+#book-reviews p,
+#book-reviews h3{
+   position:relative; 
+    left:35%;
+    width:400px;
+    background-color:lawngreen ;
+}
